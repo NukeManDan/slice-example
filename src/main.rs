@@ -1,6 +1,6 @@
 use resize_slice::ResizeSlice;
 
-fn sort(array: &mut [u32]) {
+fn sort(mut array: &mut [u32]) {
     // resize to only two items
     array.resize_from(1);
 }
